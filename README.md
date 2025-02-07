@@ -38,11 +38,3 @@ This repository contains YAML files to deploy SQL Server on a Kubernetes cluster
     kubectl get pods
     ```
 
-## Cleanup
-
-Delete resources:
-```bash
-kubectl delete -f SQL-Deployment-Manifest.yml
-kubectl delete -f SQL-Secret-Manifest.yml
-kubectl delete -f SQL-Service-Manifest.yml
-```
